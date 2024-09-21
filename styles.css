@@ -7,6 +7,16 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-h1, .increment-btns {
+#count-label, .btn-container {
+    display: block;
     text-align: center;
+}
+
+button {
+    background-color: rgb(167, 226, 255);
+    transition: background-color 0.25s;
+}
+
+button:hover {
+    background-color: rgb(123, 170, 193);
 }
